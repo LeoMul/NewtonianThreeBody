@@ -68,7 +68,7 @@ def render(positions):
     y_e = h/2 + scale*positions[3]
     #x_m = w/2 + scale*positions[4]
     #y_m = h/2 + scale*positions[5]
-
+    #the orbit of the moon kind of sucks so we have to amplify it
     x_m = x_e + moonscale*scale*(positions[4]-positions[2])
     y_m = y_e + moonscale*scale*(positions[5]-positions[3])
 
